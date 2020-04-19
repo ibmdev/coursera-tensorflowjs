@@ -8,7 +8,5 @@ import * as tf from '@tensorflow/tfjs';
 })
 export class AppComponent {
   title = 'Welcome to TensorFlow JS';
-  constructor() {
-    console.log(this.title, tf.version);
-  }
+  constructor() {}
 }

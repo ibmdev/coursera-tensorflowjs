@@ -15,7 +15,12 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "@classification/*": [ "src/app/classification/*"],
+      "@mobilenet/*": [ "src/app/classification/image/cnn/image-mobile-net/*"],
+      "@utils/*": [ "src/app/utils/*" ],
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
